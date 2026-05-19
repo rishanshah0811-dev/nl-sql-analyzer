@@ -2,6 +2,8 @@
 
 Ask questions about data in plain English. Get SQL + results + charts back instantly.
 
+**Live demo:** https://nl-sql-analyzer.vercel.app
+
 ## Stack
 - **Backend**: FastAPI + Python 3.11, SQLite, pandas, Google Generative AI SDK
 - **Frontend**: Next.js 15, Tailwind CSS, Recharts
@@ -31,7 +33,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000
+Open http://localhost:3000 — or visit the live app at **https://nl-sql-analyzer.vercel.app**
 
 ## Sample Dataset
 
