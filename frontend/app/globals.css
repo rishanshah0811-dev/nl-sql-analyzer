@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-mono: 'JetBrains Mono', Menlo, Monaco, Consolas, monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #111827; }
+::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+
+.result-table { border-collapse: collapse; width: 100%; }
+.result-table th {
+  background: #1f2937;
+  color: #9ca3af;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid #374151;
+  font-family: var(--font-mono);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.result-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #1f2937;
+  font-size: 13px;
+  font-family: var(--font-mono);
+  color: #e5e7eb;
+  white-space: nowrap;
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.result-table tr:hover td { background: #1f2937; }
+.result-table td.numeric { text-align: right; color: #86efac; }
