@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 — or visit the live app at **https://nl-sql-analyzer.vercel.app**
+Open https://nl-sql-analyzer.vercel.app
 
 ## Sample Dataset
 
